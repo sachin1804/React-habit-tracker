@@ -1,0 +1,39 @@
+form {
+  width: 50%;
+  height: 30vh;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(195, 173, 220);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form input[type="text"] {
+  width: 90%;
+  height: 50px;
+  padding: 5px 10px;
+  font-size: 18px;
+  outline: none;
+  letter-spacing: 1px;
+  border: none;
+  font-weight: 400;
+  color: rgb(91, 84, 84);
+}
+
+form input[type="submit"] {
+  padding: 15px;
+  font-size: 16px;
+  width: 20%;
+  background-color: rgb(122, 80, 171);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.3;
+  border-radius: 5px;
+}
+form input[type="submit"]:hover {
+  scale: 0.9;
+}

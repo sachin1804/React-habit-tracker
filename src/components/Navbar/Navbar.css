@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: rgb(122, 80, 171);
+}
+
+.navbar h2 {
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.navlist {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(122, 80, 171);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.link:hover {
+  background-color: rgb(235, 234, 233);
+}

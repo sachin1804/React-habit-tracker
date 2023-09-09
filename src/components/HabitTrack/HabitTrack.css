@@ -1,0 +1,28 @@
+.track-habit {
+  width: 50%;
+  height: 100px;
+  font-family: sans-serif;
+  margin: 15px auto;
+  background-color: rgb(203, 189, 220);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.track-habit h3 {
+  padding: 10px 0 10px 20px;
+}
+
+.track-week-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.week-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}

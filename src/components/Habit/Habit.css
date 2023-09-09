@@ -1,0 +1,39 @@
+.habit {
+  font-family: sans-serif;
+  width: 50%;
+  height: 110px;
+  margin: 15px auto;
+  background-color: rgb(203, 189, 220);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.habit h3 {
+  /* margin: 20px 0 10px 20px; */
+  padding: 10px 0 10px 20px;
+  color: rgb(57, 55, 55);
+  letter-spacing: 1px;
+}
+
+.habit-desc {
+  padding: 18px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.habit-desc img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.habit-desc img:hover {
+  scale: 1.1;
+}
+
+.habit-desc h4 {
+  color: rgb(57, 55, 55);
+  letter-spacing: 1px;
+}
